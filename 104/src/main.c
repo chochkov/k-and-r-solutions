@@ -18,4 +18,6 @@ int main()
     printf("%7.2f | %10.2f\n", celsius, toFahrenheit(celsius));
     celsius += STEP;
   }
+
+  return 0;
 }

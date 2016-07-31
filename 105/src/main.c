@@ -16,4 +16,6 @@ int main()
   for (celsius = UPPER; celsius >= LOWER; celsius -= STEP) {
     printf("%7.2f | %10.2f\n", celsius, toFahrenheit(celsius));
   }
+
+  return 0;
 }
