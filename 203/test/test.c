@@ -27,7 +27,7 @@ void htoiTest(TestCase *cases[], int testsCount)
 
 int main(int argc, const char *argv[])
 {
-  int testsCount = 6;
+  int testsCount = 7;
 
   TestCase *cases[testsCount];
 
@@ -37,6 +37,7 @@ int main(int argc, const char *argv[])
   cases[3] = NewTestCase("0x0", 0);
   cases[4] = NewTestCase("0x", 0);
   cases[5] = NewTestCase("0F9", -1);
+  cases[6] = NewTestCase("2af3", 10995);
 
   plan(testsCount);
 
